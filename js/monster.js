@@ -1,4 +1,4 @@
-var Monster = function(name,index,strength,health,gold) {
+var Monster = function (name, index, strength, health, gold) {
 	this.name = name;			// B$(K)
 	this.level = 1;				// B(K,1)
 	this.strength = strength;	// B(K,2)
