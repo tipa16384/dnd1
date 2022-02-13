@@ -1,0 +1,32 @@
+.teletype {
+	font-family: "PDP11-Teletype", "American Typewriter", Courier, "Courier New", monospace;
+	font-size: 12pt;
+	background-color: #FFFFC9;
+	font-weight: bold;
+	padding: 5px;
+	width: 560px;
+}
+
+div.paper {
+	height: calc(30 * 12pt);
+}
+
+div.paper > div {
+	width: 100%;
+	white-space: pre;
+	height: 12pt;
+}
+
+.console > div {
+	display: inline;
+}
+
+[name=console] {
+	border: none;
+	font-family: "PDP11-Teletype", "American Typewriter", Courier, "Courier New", monospace;
+	font-size: 12pt;
+	background-color: #FFFFC9;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
